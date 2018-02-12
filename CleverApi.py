@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # CleverBot.io Python API
 # Author: 	phl4nk
-# Date:		  08/02/2018
+# Date:		08/02/2018
 # Version:	v0.3
 
 import requests,json,random
