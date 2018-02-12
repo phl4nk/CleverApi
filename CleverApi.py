@@ -30,7 +30,6 @@ class Bot(object):
 	# Query the API and spit back response
 	def ask(self,text):
 		self.data.update({'text':text})
-		print self.data
 		response = requests.post(self.endpoint+'ask', json=self.data)
         	json_response = json.loads(response.text)
 	        if json_response['status'] == 'success':
